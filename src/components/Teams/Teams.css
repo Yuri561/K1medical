@@ -1,0 +1,31 @@
+.box:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	color: rgb(247, 247, 247);
+	background-color: rgb(201, 147, 31);
+	border-color: rgb(201, 147, 31);
+	text-shadow: 0 0 50px white, 0 0 20px white, 0 0 15px white;
+	box-shadow: 0 0 50px rgb(201, 147, 31), 0 0 30px rgb(201, 147, 31),
+		0 0 60px rgb(201, 147, 31), 0 0 120px rgb(201, 147, 31);
+	font-size: 10px;
+	letter-spacing: 3px;
+}
+
+.box{
+    transition: all 0.5s;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 3px;
+    background-color: rgb(247, 247, 247);
+    color: rgb(201, 147, 31);
+    text-align: center;
+    font-size: 5px;
+    letter-spacing: 3px;
+    
+}
+
+
+.img{
+    margin-top: 10px !important;
+}

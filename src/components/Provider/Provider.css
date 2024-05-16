@@ -130,12 +130,14 @@
 .card1 .bottom .bottom-bottom .social-links-container svg {
   height: 20px;
   fill: white;
-  filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
+  -webkit-filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
+          filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.1333333333));
 }
 
 .card1 .bottom .bottom-bottom .social-links-container svg:hover {
-  fill: #030202;
+  fill: #ffffff;
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .card1 .bottom .bottom-bottom .button1 {

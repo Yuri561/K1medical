@@ -1,44 +1,131 @@
-import React from 'react'
-import './Appointments.css'
+import React from 'react';
+import './Appointments.css';
+
 const Appointments = () => {
-  return (
-    <div className='container  app-wrapper justify-content-center'>
-      <div className="row justify-content-center">
-        <div className="col-6 text-center">
-          <button class="button3 " style={{width: '10rem'}}
-         >
-          Previous
-</button>
-        </div>
-           <div className="col-6 text-center">
-          <button class="button3" style={{width: '10rem'}}
-           data-bs-toggle='modal' data-bs-target="#staticBackdrop">
-          Schedule
-</button>
-        </div>
-      </div>
+	return (
+		<div className='app-wrapper justify-content-center'>
+			{' '}
+			{/* Added opening div tag */}
+			<div className='text-center lead'>
+				<h1 className='my-5'>Menu</h1>
+			</div>
+			<div className='row g-5 g-lg-3 justify-content-center mb-3'>
+				<div className='col-sm text-center'>
+					<button className='button3' style={{ width: '7rem' }}>
+						<span className='text-center word'>Team</span>
+					</button>
+				</div>
+				<div className='col-sm text-center'>
+					<button
+						className='button3'
+						style={{ width: '7rem' }}
+						data-bs-toggle='modal'
+						data-bs-target='#staticBackdrop1'>
+						{' '}
+						{/* Changed modal ID to unique ID */}
+						<span className='text-center word'>Orders</span>
+					</button>
+				</div>
+			</div>
+			<div className='row justify-content-center mb-3 my-5'>
+				<div className='col-sm text-center'>
+					<button className='button3' style={{ width: '7rem' }}>
+						<span className='text-center word'>Fitness</span>
+					</button>
+				</div>
+				<div className='col-sm text-center'>
+					<button
+						className='button3'
+						style={{ width: '7rem' }}
+						data-bs-toggle='modal'
+						data-bs-target='#staticBackdrop2'>
+						<span className='text-center word'>Schedule</span>
+						
+					</button>
+				</div>
+			</div>
+			{/* Modal for schedule 1 */}
+			<div
+				className='modal fade'
+				id='staticBackdrop1'
+				data-bs-backdrop='static'
+				data-bs-keyboard='false'
+				tabIndex='-1'
+				aria-labelledby='staticBackdropLabel1'
+				aria-hidden='true'>
+				<div
+					className='modal-dialog modal-dialog-scrollable'
+					style={{ height: '15rem', position: 'absolute' }}>
+					<div className='modal-content'>
+						<div className='modal-header'>
+							<h1 className='modal-title fs-5' id='staticBackdropLabel1'>
+								{' '}
+								{/* Changed aria-labelledby to unique ID */}
+								Schedule
+							</h1>
+							<button
+								type='button'
+								className='btn-close'
+								data-bs-dismiss='modal'
+								aria-label='Close'></button>
+						</div>
+						<div className='modal-body'>...</div>
+						<div className='modal-footer'>
+							<button
+								type='button'
+								className='btn btn-secondary'
+								data-bs-dismiss='modal'>
+								Close
+							</button>
+							<button type='button' className='btn btn-primary'>
+								Understood
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			{/* Modal for schedule 2 */}
+			<div
+				className='modal fade'
+				id='staticBackdrop2'
+				data-bs-backdrop='static'
+				data-bs-keyboard='false'
+				tabIndex='-1'
+				aria-labelledby='staticBackdropLabel2'
+				aria-hidden='true'>
+				<div
+					className='modal-dialog modal-dialog-scrollable'
+					style={{ height: '15rem', position: 'absolute' }}>
+					<div className='modal-content'>
+						<div className='modal-header'>
+							<h1 className='modal-title fs-5' id='staticBackdropLabel2'>
+								{' '}
+								{/* Changed aria-labelledby to unique ID */}
+								Schedule
+							</h1>
+							<button
+								type='button'
+								className='btn-close'
+								data-bs-dismiss='modal'
+								aria-label='Close'></button>
+						</div>
+						<div className='modal-body'>...</div>
+						<div className='modal-footer'>
+							<button
+								type='button'
+								className='btn btn-secondary'
+								data-bs-dismiss='modal'>
+								Close
+							</button>
+							<button type='button' className='btn btn-primary'>
+								Understood
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
 
-{/* Modal for schedule */}
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-scrollable"
-  style={{height: '15rem', position: 'absolute'}}>
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Schedule</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
-      </div>
-  )
-}
-
-export default Appointments
+export default Appointments;

@@ -10,7 +10,10 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 73, 144, 0.5) 5px 10px 15px;
   transition: all 0.5s;
 }
-
+#btn-container{
+  border: solid 1px #fff;
+  width: 300px; /* Increased width */
+}
 #btn-container:hover {
   width: 350px; /* Increased width on hover */
   transition: all 0.5s;

@@ -7,8 +7,8 @@ import Appointments from '../Appointments/Appointments'
 
 const Sidebar = () => {
   return (
-    <div className='d-flex flex-column justify-content-start justify-content-lg-center align-items-center sidebar-container g-2'>
-        <Navbar/>
+    <div className='d-flex flex-column justify-content-center justify-content-lg-center align-items-center sidebar-container g-2'>
+      
         <Appointments/>
         <Provider/>
         <div className='mt-3'>
