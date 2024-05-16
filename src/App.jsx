@@ -22,7 +22,7 @@ function App() {
           <Fitness />
         </div>
         <div className="item4 rounded">
-          <Appointments />
+          placeholder
         </div>
         <div className="item5 rounded">Quote of Day</div>
         <div className="item8 rounded">

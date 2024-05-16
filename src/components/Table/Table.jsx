@@ -89,13 +89,13 @@ const headCells = [
     id: 'medication',
     numeric: false,
     disablePadding: false,
-    label: 'Medication/Procedure',
+    label: 'Medication',
   },
   {
     id: 'dosage',
     numeric: true,
     disablePadding: false,
-    label: 'Dosage/Amount',
+    label: 'Dosage',
   },
   {
     id: 'unit',
@@ -107,7 +107,7 @@ const headCells = [
     id: 'frequency',
     numeric: false,
     disablePadding: false,
-    label: 'Frequency/Instructions',
+    label: 'Frequency',
   },
   {
     id: 'rating',
@@ -336,7 +336,8 @@ export default function EnhancedTable() {
                     selected={isItemSelected}
                     sx={{ cursor: 'pointer' }}
                   >
-                    <TableCell padding="checkbox">
+                    <TableCell padding="checkbox"
+                    className='overflow-y-auto'>
                       <Checkbox
                         color="primary"
                         checked={isItemSelected}
@@ -351,12 +352,13 @@ export default function EnhancedTable() {
                       scope="row"
                       padding="none"
                     >
-                      {row.medication}
+                      {row.order}
                     </TableCell>
-                    <TableCell align="right">{row.dosage}</TableCell>
-                    <TableCell align="right">{row.unit}</TableCell>
-                    <TableCell align="right">{row.frequency}</TableCell>
-                    <TableCell align="right">{row.rating}</TableCell>
+                     <TableCell align="left">{row.medication}</TableCell>
+                    <TableCell align="left">{row.dosage}</TableCell>
+                    <TableCell align="left">{row.frequency}</TableCell>
+                    <TableCell align="left">{row.unit}</TableCell>
+                    <TableCell align="center">{row.rating}</TableCell>
                   </TableRow>
                 );
               })}
