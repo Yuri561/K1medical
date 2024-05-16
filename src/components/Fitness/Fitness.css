@@ -1,0 +1,42 @@
+
+
+.fitness-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px; /* Adjust the size as needed */
+  height: 80px; /* Adjust the size as needed */
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  margin: 10px; /* Add margin to space out the boxes */
+}
+
+.fitness-box:hover {
+  transform: scale(1.1);
+}
+
+.fitness-icon {
+  font-size: 2rem; /* Adjust the size as needed */
+  color: #fff;
+}
+
+.hover-content {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.fitness-box:hover .hover-content {
+  opacity: 1;
+}

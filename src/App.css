@@ -1,0 +1,182 @@
+*{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.app {
+  background-color: #0d0a2c;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns of equal width */
+  grid-template-rows: 2fr 1fr 1fr 2fr; /* Four rows with specified heights */
+  gap: 10px; /* Space between the grid items */
+  width: 97vw; /* Adjust the width as necessary */
+  height: 97vh; /* Adjust the height as necessary */
+}
+
+.item1 {
+  grid-column: 1 / 2; /* First column */
+  grid-row: 1 / 5; /* Span from the first to the fourth row */
+  /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.item2 {
+  grid-column: 2 / 3; /* Second column */
+  grid-row: 1 / 2; /* First row */
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+
+.item3 {
+  grid-column: 3 / 4; /* Third column */
+  grid-row: 1 / 2; /* First row */
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.item4 {
+  grid-column: 2 / 3; /* Second column */
+  grid-row: 2 / 3; /* Second row */
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.item5 {
+  grid-column: 3 / 4; /* Third column */
+  grid-row: 2 / 3; /* Second row */
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.item6 {
+  grid-column: 2 / 3; /* Second column */
+  grid-row: 3 / 4; /* Third row */
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.item7 {
+  grid-column: 3 / 4; /* Third column */
+  grid-row: 3 / 4; /* Third row */
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+
+.item8 {
+  grid-column: 2 / 4; /* Span across the second and third columns */
+  grid-row: 3/ 5; /* Fourth row */
+   /* From https://css.glass */
+background: rgba(0, 0, 0, 0.6);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.4px);
+-webkit-backdrop-filter: blur(11.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) { /* Medium screens and down (≤992px) */
+  .glass {
+    display: flex;
+    flex-direction: column; /* Column layout */
+    gap: 10px;
+  }
+
+  .item1 {
+    display: none; /* Hide item1 */
+  }
+  .item2 .button3{
+    font-size: 2rem;
+  }
+  .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
+    width: 100%; /* Full width */
+    height: auto; /* Adjust height */
+  }
+
+  .app {
+    padding: 20px; /* Increase padding */
+  }
+}
