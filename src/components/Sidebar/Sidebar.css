@@ -1,6 +1,107 @@
-.sidebar-container{
+/* Sidebar.css */
+
+.sidebar-container {
     padding-top: 5rem;
     margin: auto;
-    padding: 30px 0;
     width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .sidebar-container {
+        padding-top: 2rem; /* Reduce padding-top for smaller screens */
+        padding: 12px; /* Add general padding for smaller screens */
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .sidebar-container .mt-3 {
+        margin-top: 1rem; /* Reduce margin-top */
+    }
+
+    .sidebar-container .appointments,
+    .sidebar-container .provider,
+    .sidebar-container .connect {
+        margin: 10px 0; /* Reduce margins for child components */
+    }
+
+    .sidebar-container .button3 {
+        width: 5rem; /* Reduce button width */
+        padding: 0.5em 1.5em; /* Reduce button padding */
+        font-size: 12px; /* Reduce button font size */
+    }
+}
+
+/* Additional CSS for individual components */
+.app-wrapper {
+    padding: 8px;
+}
+
+.button3 {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+                0 0 4em 1em var(--glow-spread-color),
+                inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    -webkit-filter: blur(2em);
+            filter: blur(2em);
+    opacity: 0.7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.button3:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+                0 0 4em 2em var(--glow-spread-color),
+                inset 0 0 0.75em 0.25em var(--glow-color);
+}
+
+.button3:active {
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+                0 0 2.5em 2em var(--glow-spread-color),
+                inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+.word {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 962px) {
+    .app-wrapper {
+        height: 7rem;
+    }
+
+    .button3 {
+        margin: auto;
+        margin-top: 25px;
+    }
 }

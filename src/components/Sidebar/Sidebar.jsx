@@ -7,13 +7,19 @@ import Appointments from '../Appointments/Appointments'
 
 const Sidebar = () => {
   return (
-    <div className='d-flex flex-column justify-content-center justify-content-lg-center align-items-center sidebar-container g-2'>
+    <div className='d-flex flex-column 
+    justify-content-center 
+    justify-content-lg-center 
+    align-items-center 
+    sidebar-container
+    overflow-hidden 
+    g-2'>
       
         <Appointments/>
         <Provider/>
-        <div className='mt-3'>
+       
           <Connect/>
-      </div>
+    
 
 
     </div>

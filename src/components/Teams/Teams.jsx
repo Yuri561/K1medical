@@ -20,7 +20,8 @@ const Teams = () => {
                align-items-center
                p-3'>
 				<div className='col-sm text-center justify-content-start'>
-					<div className='box justify-content-center bg-info rounded'>
+					<div className='box justify-content-center bg-info rounded'
+					style={{position: 'relative', bottom: '35px', fontSize:'20px', height: '150px'}}>
 						<img
 							src={Doctor1}
 							alt='random ai photo'
@@ -31,7 +32,7 @@ const Teams = () => {
 								Yoga Specialist
 							</span>
 							<span className='fs-6 text-center lead'>Ms. Kim Luiz</span>
-							<span className='fs-6 text-center text-light'>
+							<span className='fs-6 text-center text-light d-md-none'>
 								<i className='bi bi-telephone-forward'> 910-564-1553</i>
 							</span>
 						</div>
@@ -54,7 +55,8 @@ const Teams = () => {
 					</div>
 				</div>
 				<div className='col-sm text-center justify-content-start'>
-					<div className='box justify-content-center bg-success rounded'>
+					<div className='box justify-content-center bg-success rounded'
+					style={{position: 'relative', bottom: '35px', fontSize:'20px', height: '150px'}}>
 						<img
 							src={Doctor3}
 							alt='random ai photo'
