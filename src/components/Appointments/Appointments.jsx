@@ -3,14 +3,23 @@ import './Appointments.css';
 
 const Appointments = () => {
 	return (
+<<<<<<< HEAD
 		<div className='app-wrapper d-flex flex-column justify-content-center'
 		style={{position: 'relative', bottom: '10rem'}}>
+=======
+		<div className='app-wrapper justify-content-center position-relative'
+			style={{ bottom: '5rem'}}>
+>>>>>>> 2615bcaf534c8720438c19f01aed91e027734071
 			{' '}
 			{/* Added opening div tag */}
 			<div className='text-center lead'>
 				<h1 className='my-5'>Menu</h1>
 			</div>
+<<<<<<< HEAD
 			<div className='row g-2 g-lg-2 justify-content-center mb-1'>
+=======
+			<div className='row g-2 g-lg-3 justify-content-center mb-1'>
+>>>>>>> 2615bcaf534c8720438c19f01aed91e027734071
 				<div className='col-sm text-center'>
 					<button className='button3' style={{ width: '7rem' }}>
 						<span className='text-center word'>Team</span>

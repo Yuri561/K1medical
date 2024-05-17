@@ -23,7 +23,8 @@
     border-radius: 10px;
     padding: 10px;
     margin: 3px;
-    background-color: rgb(247, 247, 247);
+    width: 150px;
+    height: 150px;
     color: rgb(201, 147, 31);
     text-align: center;
     font-size: 5px;
@@ -33,4 +34,8 @@
 
 .img{
     margin-top: 10px !important;
+}
+
+.about{
+    margin-bottom: 10px !important;
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Sidebar.css */
 
 .sidebar-container {
@@ -105,3 +106,13 @@
         margin-top: 25px;
     }
 }
+=======
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto; /* Added semicolon */
+    padding: 30px 30px; /* Added semicolon and removed duplicate */
+    width: 100%; /* Added semicolon and removed duplicate */
+    height: 100%; /* Added semicolon and removed duplicate */
+}
+>>>>>>> 2615bcaf534c8720438c19f01aed91e027734071
