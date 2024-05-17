@@ -10,8 +10,9 @@ import { Instagram } from 'react-bootstrap-icons';
 
 const Quotes = () => {
 	return (
-		<div className='quotes-wrapper justify-content-center d-flex'>
-			<div className='card text-center' style={{ width: '100%' }}>
+        <div className='quotes-wrapper justify-content-center d-flex'
+        style={{width: '100%', height: '100%'}}>
+			<div className='card text-center' style={{ width: '100%', height: '100%' }}>
 				<div className='card-header h2'>Quote Of The Day</div>
 				<div className='card-body'>
 					<h5 className='card-title'>Special title treatment</h5>

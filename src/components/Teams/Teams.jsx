@@ -9,7 +9,7 @@ const Teams = () => {
 	return (
 		<div
 			className='Teams-wrapper justify-content-start p-md-2'
-			style={{ width: '100%' }}>
+			style={{ width: '100%', maxHeight: '100%' }}>
 			<div className='text-center lead'>
 				<h1 className='text-center'>Team</h1>
 			</div>
@@ -24,16 +24,18 @@ const Teams = () => {
 						<img
 							src={Doctor1}
 							alt='random ai photo'
-							style={{ width: '40px', borderRadius: '50%' }}
+							style={{
+								maxWidth: '40px',
+								maxHeight: '40px',
+								borderRadius: '50%',
+							}}
 							className='img'></img>
 						<div className='about d-grid'>
 							<span className='fs-6 text-center text-light'>
 								Yoga Specialist
 							</span>
 							<span className='fs-6 text-center lead'>Ms. Kim Luiz</span>
-							<span className='fs-6 text-center text-light'>
-								<i className='bi bi-telephone-forward'> 910-564-1553</i>
-							</span>
+							
 						</div>
 					</div>
 				</div>
@@ -42,14 +44,16 @@ const Teams = () => {
 						<img
 							src={Doctor4}
 							alt='random ai photo'
-							style={{ width: '40px', borderRadius: '50%' }}
+							style={{
+								maxWidth: '40px',
+								maxHeight: '40px',
+								borderRadius: '50%',
+							}}
 							className='img'></img>
 						<div className='about d-grid'>
 							<span className='fs-6 text-center text-light'>Provider</span>
 							<span className='fs-6 text-center lead'>Dr. Diha Mahj</span>
-							<span className='fs-6 text-center text-light'>
-								<i className='bi bi-telephone-forward'> 910-564-1563</i>
-							</span>
+							
 						</div>
 					</div>
 				</div>
@@ -58,16 +62,18 @@ const Teams = () => {
 						<img
 							src={Doctor3}
 							alt='random ai photo'
-							style={{ width: '40px', borderRadius: '50%' }}
+							style={{
+								maxWidth: '40px',
+								maxHeight: '40px',
+								borderRadius: '50%',
+							}}
 							className='img'></img>
 						<div className='about d-grid'>
 							<span className='fs-6 text-center text-light'>
 								Fitness Expert
 							</span>
 							<span className='fs-6 text-center lead'>Ms. Jenni Len</span>
-							<span className='fs-6 text-center text-light'>
-								<i className='bi bi-telephone-forward'> 910-564-1543</i>
-							</span>
+							
 						</div>
 					</div>
 				</div>

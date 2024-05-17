@@ -3,13 +3,14 @@ import './Appointments.css';
 
 const Appointments = () => {
 	return (
-		<div className='app-wrapper justify-content-center'>
+		<div className='app-wrapper justify-content-center position-relative'
+			style={{ bottom: '5rem'}}>
 			{' '}
 			{/* Added opening div tag */}
 			<div className='text-center lead'>
 				<h1 className='my-5'>Menu</h1>
 			</div>
-			<div className='row g-5 g-lg-3 justify-content-center mb-3'>
+			<div className='row g-2 g-lg-3 justify-content-center mb-1'>
 				<div className='col-sm text-center'>
 					<button className='button3' style={{ width: '7rem' }}>
 						<span className='text-center word'>Team</span>
