@@ -7,6 +7,7 @@ import {
 } from 'react-bootstrap-icons';
 import './Provider.css';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 const Provider = () => {
@@ -53,6 +54,10 @@ const Provider = () => {
 =======
 
 const Provider = () => {
+=======
+
+const Provider = () => {
+>>>>>>> origin/master
 	return (
 		<>
 			<div className='provider-wrapper'>
@@ -84,6 +89,9 @@ const Provider = () => {
 		</>
 	);
 };
+<<<<<<< HEAD
 >>>>>>> 2615bcaf534c8720438c19f01aed91e027734071
+=======
+>>>>>>> origin/master
 
 export default Provider;

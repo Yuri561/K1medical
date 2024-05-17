@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Sidebar.css */
 
 .sidebar-container {
@@ -107,6 +108,8 @@
     }
 }
 =======
+=======
+>>>>>>> origin/master
 .sidebar-container {
     display: flex;
     flex-direction: column;
@@ -114,5 +117,9 @@
     padding: 30px 30px; /* Added semicolon and removed duplicate */
     width: 100%; /* Added semicolon and removed duplicate */
     height: 100%; /* Added semicolon and removed duplicate */
+<<<<<<< HEAD
 }
 >>>>>>> 2615bcaf534c8720438c19f01aed91e027734071
+=======
+}
+>>>>>>> origin/master

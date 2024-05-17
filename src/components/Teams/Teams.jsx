@@ -37,12 +37,16 @@ const Teams = () => {
 							</span>
 							<span className='fs-6 text-center lead'>Ms. Kim Luiz</span>
 <<<<<<< HEAD
+<<<<<<< HEAD
 							<span className='fs-6 text-center text-light d-md-none'>
 								<i className='bi bi-telephone-forward'> 910-564-1553</i>
 							</span>
 =======
 							
 >>>>>>> 2615bcaf534c8720438c19f01aed91e027734071
+=======
+							
+>>>>>>> origin/master
 						</div>
 					</div>
 				</div>
