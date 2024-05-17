@@ -125,6 +125,7 @@ function EnhancedTableHead(props) {
   };
 
   return (
+    
     <TableHead>
       <TableRow>
         <TableCell padding="checkbox">
@@ -302,9 +303,9 @@ export default function EnhancedTable() {
   );
 
   return (
-    <div className="container  w-100 h-100 overflow-hidden table" style={{width: '100%'}}>
+    <div className="container overflow-hidden table" style={{width: '100%', height: '100%'}}>
     <Box sx={{ width: '100%' }}>
-      <Paper sx={{ width: '100%', mb: 2 }}>
+      <Paper sx={{ width: '100%', mb: 2, height: '100%' }}>
         <EnhancedTableToolbar numSelected={selected.length} />
         <TableContainer>
           <Table
