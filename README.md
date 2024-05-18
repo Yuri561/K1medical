@@ -1,7 +1,11 @@
 K1 Medical Tracker
 Overview
 K1 Medical Tracker is a web application designed for users who want to track both their health and fitness activities. It provides features for managing medical orders, prescriptions, and appointments, along with fitness tracking capabilities such as exercise logging and goal setting.
-![image](https://github.com/Yuri561/K1medical/assets/121592752/03133722-eae8-4eaf-b32f-0292931be128)
+![image](https://github.com/Yuri561/K1medical/assets/121592752/8ee2da7d-0445-4fcb-9040-b0890f4803a2)
+
+![image](https://github.com/Yuri561/K1medical/assets/121592752/99395e1b-05f5-49dd-a54e-c8e8fb6a16b4)
+
+
 
 ![image](https://github.com/Yuri561/K1medical/assets/121592752/17d8fae2-4799-42af-aa34-50848f690fe8)
 
