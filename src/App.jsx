@@ -23,15 +23,16 @@ function App() {
 				<div className='item3 p-4 rounded'>
 					<Fitness />
 				</div>
-				<div className='item4 rounded'>
+				<div className='item4 rounded'
+				>
 					<Teams />
 				</div>
 				<div className='item5 rounded'>
 					<Quotes />
 				</div>
-				<div className='item8 rounded'>
+				{/* <div className='item8 rounded'>
 					<EnhancedTable />
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

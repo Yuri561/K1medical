@@ -17,11 +17,10 @@
 .glass {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; /* Three columns of equal width */
-  grid-template-rows: 2fr 1fr 1fr 2fr; /* Four rows with specified heights */
+  grid-template-rows: 2fr 1fr 2fr; /* Four rows with specified heights */
   gap: 10px; /* Space between the grid items */
   width: 97vw; /* Adjust the width as necessary */
   height: 97vh; /* Adjust the height as necessary */
-  overflow: hidden;
 }
 
 .item1 {
@@ -87,7 +86,7 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(11.4px);
 -webkit-backdrop-filter: blur(11.4px);
 border: 1px solid rgba(255, 255, 255, 0.3);
-  
+  display: flex;
   justify-content: center;
   align-items: center;
   color: white;
@@ -158,6 +157,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   color: white;
 }
 
+ .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
+    width: 100%; /* Full width */
+    margin: 0;
+  }
 /* Responsive styles */
 @media (max-width: 992px) { /* Medium screens and down (≤992px) */
   .glass {
@@ -174,7 +177,6 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   }
   .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
     width: 100%; /* Full width */
-    height: auto; /* Adjust height */
   }
 
   .app {

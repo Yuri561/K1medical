@@ -5,9 +5,10 @@ import './Connect.css';
 const Connect = () => {
 	return (
 		<div className='connect-wrapper'>
-			<div className='row row-cols-1 row-cols-md-2 justify-content-start g-5 '>
+			<div className='row row-cols-1 row-cols-md-2 justify-content-start g-5'>
 				<div className='col'>
-          <button className='Btn bg-info'>
+          <button className='Btn bg-info'
+		  >
             <div className='sign'>
               <PersonCircle />
             </div>

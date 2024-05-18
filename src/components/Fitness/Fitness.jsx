@@ -11,7 +11,7 @@ const Fitness = () => {
     <div className='container justify-content-md-center align-items-center'>
       <div className="row justify-content-center">
         <div className="col-12 text-center">
-          <h1 className='mt-1'>Fitness</h1>
+          <h3 className='mt-1'>Fitness</h3>
         </div>
       </div>
       <div className="row justify-content-center">
